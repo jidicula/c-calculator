@@ -22,3 +22,27 @@
  * SOFTWARE. 
  */
 #include "operations.h"
+
+/* Returns the int result of x + y where x and y are type int */
+int add(int x, int y)
+{
+	return x + y;
+} /* add() */
+
+/* Returns the int result of x - y where x and y are type int */
+int subtract(int x, int y)
+{
+	return x - y;
+} /* subtract() */
+
+/* Returns the int result of x * y where x and y are type int */
+int multiply(int x, int y)
+{
+	return x * y;
+} /* multiply() */
+
+/* Returns the int result of x / y where x and y are type int */
+int divide(int x, int y)
+{
+	return x / y;
+} /* divide() */

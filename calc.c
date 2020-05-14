@@ -22,9 +22,38 @@
  * SOFTWARE. 
  */
 #include <stdio.h>
+#include <stdlib.h>
 #include "operations.h"
 
 int main(int argc, char *argv[])
 {
-	return 0;
+	int num1;
+	char operation;
+	int num2;
+	int result;
+
+	if (argc != 4)
+		return EXIT_FAILURE;
+	num1 = atoi(argv[1]);
+	operation = argv[2][0];
+	num2 = atoi(argv[3]);
+
+	switch (operation) {
+	case '+':
+		result = add(num1, num2);
+		break;
+	case '-':
+		result = subtract(num1, num2);
+		break;
+	case '*':
+		result = multiply(num1, num2);
+		break;
+	case '/':
+		result = divide(num1, num2);
+		break;
+	}
+
+	printf("%d\n", result);
+
+	return EXIT_SUCCESS;
 }

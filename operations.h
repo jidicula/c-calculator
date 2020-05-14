@@ -24,5 +24,12 @@
 
 #ifndef OPERATIONS_H
 #define OPERATIONS_H
-/* TODO: function prototypes here */
+
+int add(int x, int y);
+
+int subtract(int x, int y);
+
+int multiply(int x, int y);
+
+int divide(int x, int y);
 #endif /* OPERATIONS_H */
