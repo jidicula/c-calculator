@@ -21,3 +21,8 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE. 
  */
+
+#ifndef OPERATIONS_H
+#define OPERATIONS_H
+/* TODO: function prototypes here */
+#endif /* OPERATIONS_H */
